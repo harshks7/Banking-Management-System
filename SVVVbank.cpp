@@ -1,4 +1,4 @@
-//compile on turbo
+//compile on turbo / devc++
 #include <iostream.h>
 #include<fstream.h>
 #include<conio.h>
@@ -2686,7 +2686,7 @@ settextstyle(6,0,3);
 outtextxy(270,80,"DEPOSIT");
 setcolor(0);
 settextstyle(6,0,3);
- outtextxy(120,137,"ENTER THE AMOUNT YOU WANT TO DEPOSIT");
+ outtextxy(120,137,"ENTER THE VALID AMOUNT, YOU WANT TO DEPOSIT ");
 
 setcolor(0);
 setfillstyle(1,15);
@@ -2716,7 +2716,7 @@ settextstyle(6,0,3);
 outtextxy(270,80,"WITHDRAW");
 setcolor(0);
 settextstyle(6,0,3);
- outtextxy(120,137,"ENTER THE AMOUNT YOU WANT TO WITHDRAW");
+ outtextxy(120,137,"ENTER THE VALID AMOUNT, YOU WANT TO WITHDRAW");
 
 setcolor(0);
 setfillstyle(1,15);
